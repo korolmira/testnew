@@ -1,4 +1,7 @@
 @media (max-height: 1440px) {
+    .container{
+        width: 90%;
+    }
 
 }
 
@@ -16,6 +19,11 @@
     .header-title {
     margin-left: 222px;
     font-size: 23px;
+    }
+    .get-it {
+        height: 371px;
+        background: #31C5A1;
+        width: 1140px;
 }
 
 }
@@ -25,7 +33,11 @@
 }
 
 @media (max-width: 768px) {
-
+    .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
 }
 
 @media (max-width: 451px) {
@@ -33,7 +45,11 @@
 }
 
 @media (max-width: 425px) {
-
+        .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+        }
 }
 
 @media (max-width: 415px) {
