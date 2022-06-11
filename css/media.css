@@ -6,13 +6,7 @@
 }
 
 @media (max-width: 1200px) {
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 1072px;
-        padding-left: 20px;
-        }
+   
 }
 
 @media (max-width: 1024px) {
@@ -21,9 +15,9 @@
     font-size: 23px;
     }
     .get-it {
-        height: 371px;
+        
         background: #31C5A1;
-        width: 1140px;
+    
 }
 
 }
